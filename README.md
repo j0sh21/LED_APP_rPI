@@ -8,7 +8,7 @@ Welcome to the LED Controller System, designed to enhance your applications with
 - **Initialization**: Requires GPIO pin configuration for the RGB LEDs. 
 - **Functionalities**:
   - Animation configurations (fade speed, breath speed, blink times). 
-  - Direct LED color setting and animation control (looping, activation, interruption). S
+  - Direct LED color setting and animation control (looping, activation, interruption).
 - **Server Integration**: Utilizes the ServerThread class to listen for external commands, enabling dynamic control over LED animations.
 
 ### minidisplay.py
@@ -36,7 +36,7 @@ Welcome to the LED Controller System, designed to enhance your applications with
    ```sh
    python3 client.py
    ```
-   1. Type in "color 255 0 0" and hit enter
+   1. Type in "color 0 255 0" and hit enter
 
        
 2. b) Set the color to green via a python skript:
@@ -52,7 +52,7 @@ def send_msg_to_LED(command):
 LED_HOST = 'localhost'
 LED_PORT = 12345
         
-send_msg_to_LED("color 255 0 0")
+send_msg_to_LED("color 0 255 0")
 ```
 ## Tips
 
