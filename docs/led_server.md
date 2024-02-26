@@ -4,7 +4,7 @@ Welcome to the LED Controller module! This document is designed to help you unde
 
 ## Getting Started
 
-The `RGBLEDController` class in this module controls RGB LEDs to create engaging visual effects. Whether you're adding ambiance during the photo-taking process or providing visual cues during payment, this module offers a variety of animations like breathing, blinking, and fading.
+The `RGBLEDController` class in this module controls RGB LEDs to create engaging visual effects. Whether you're adding ambiance during the process or providing visual cues during payment, this module offers a variety of animations like breathing, blinking, and fading.
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ For advanced setups, the `ServerThread` class allows the LED Controller to recei
 
 | Command                           | Action                                                                              |
 |-----------------------------------|-------------------------------------------------------------------------------------|
-| "color 0 255 0"                   | sets color to blue                                                                  |
+| "color 0 255 0"                   | sets color to green                                                                  |
 | "brightness 200"                  | sets brightness to 200. Range 0 - 255                                               |
 | "fadespeed 0.8"                   | set fade speed to 0.8                                                               |
 | "fade 1"                          | start fade                                                                          |
